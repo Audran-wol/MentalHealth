@@ -1,0 +1,24 @@
+{
+  "mindfulness_exercises": [
+    {
+      "title": "Je te Laisserai Des Mots (02:49)",
+      "description": "A soothing piano piece that can help in reducing stress and promoting relaxation.",
+      "file_name": "Je Te Laisserai Des Mots.mp3"
+    },
+    {
+      "title": "What More Can I Give (5:04)",
+      "description": "What More Can I Give is a song performed by choir various artists to promote world peace and unity.",
+      "file_name": "Whatmore.mp3"
+    },
+    {
+      "title": "Mountain Meditation (8:12)",
+      "description": "Mountain Meditation is a type of guided imagery meditation that involves visualizing yourself as a mountain, steady and strong, while observing your thoughts and feelings as clouds passing by.",
+      "file_name": "Mountain Meditation.mp3"
+    },
+    {
+      "title": "Breathing Retraining (10:45)",
+      "description": "Breathing Retraining is a technique for reducing your level of anxiety. It is a simple technique that can be used anywhere and at any time.",
+      "file_name": "Breathing Retraining.mp3"
+    }
+  ]
+}

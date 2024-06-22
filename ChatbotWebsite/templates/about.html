@@ -1,0 +1,47 @@
+{%extends 'layout.html'%}{%block content%}
+<div class="container-fluid d-grid">
+  <h1
+    id="about-us-title"
+    class="mx-auto mt-2 mb-5 fw-bold font-monospace border-bottom border-info"
+  >
+    About Us
+  </h1>
+  <div class="container text-center">
+    <div class="row row-cols-2">
+      <div class="col">
+        <img
+          src="{{url_for('static',filename='images/chatbot2.jpg')}}"
+          alt="Mental Health Chatbot Picture"
+          class="rounded-circle border border-secondary mx-auto mb-5 d-block shadow"
+          style="width: 18.75rem; height: 18.75rem"
+        />
+      </div>
+      <div class="col">
+        <p>
+          Greetings from our mental health chatbot! This platform is crafted to offer dependable insights and support aimed at enhancing your mental health and wellness.
+        </p>
+        <hr>
+        <p>
+          We recognize that reaching out for mental health support can be difficult, so our chatbot is created to ensure the experience is as easy and welcoming as possible.
+        </p>
+        <hr>
+        <p>
+          Please note that this chatbot is part of a school project and is not intended for professional use. If you are facing a mental health crisis, it is important to seek assistance from a qualified mental health professional.
+      </div>
+      <div class="col">
+        <h2>Our Associate Organization</h2>
+        <p>
+          We are grateful to <a href="https://www.ictuniversity.edu.cm">ICT University</a> for providing us with the opportunity to work on this project.
+          <img src="{{url_for('static', filename='images/ict_logo.jpg')}}" alt="ICT University Logo" class="img-fluid mt-3" style="max-width: 150px;">
+        </p>
+      </div>
+      <div class="col">
+        <h2>Our Team</h2>
+        <p>
+          Health ChatBot was developed by a dedicated student who is passionate about mental health. Thanks for appreciating the work any support would be grately welcomed.<br> Contact the developer <strong>(tiyo.karmelly@ictuniversity.edu.cm)</strong> if you have any questions or feedback.
+        </p>
+      </div>
+    </div>
+  </div>
+  {%endblock content%}
+</div>
